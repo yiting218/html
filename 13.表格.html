@@ -1,0 +1,25 @@
+<html>
+    <head><title>表格</title></head>
+    <body>
+        <!--2×3表格-->
+        <table border=1>  <!--表示表格數據-->
+            <tr><td>1</td><td>2</td><td>3</td></tr> <!--表格行元素-->
+            <tr><td>4</td><td>5</td><td>6</td></tr>  <!--表格數據單元格元素-->
+        </table>
+        <!--colspan--> <!--合併列-->
+        <table border=1>
+            <tr><td>1</td><td colspan=2>2 3</td></tr>
+            <tr><td>4</td><td>5</td><td>6</td></tr>
+        </table>
+        <!--rowspan--> <!--合併格-->
+        <table border=1>
+            <tr><td rowspan=2>1 4</td><td>2</td><td>3</td></tr>
+            <tr><td>5</td><td>6</td></tr>
+        </table>
+        <table border=1>
+            <tr><td>1</td><td colspan=2 rowspan=2>2 3 5 6</td></tr>
+            <tr><td>4</td>
+            <tr><td>7</td><td>8</td><td>9</td></tr>
+        </table>
+    </body>
+</html>
